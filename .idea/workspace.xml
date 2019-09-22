@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee7b7c7-2c3e-4946-946b-2a858fee7566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/intern-challenge2/Question 04/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intern-challenge2/Question 04/api/tests_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intern-challenge2/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intern-challenge2/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,46 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47679326">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/api/api.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/validator/validator.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/api/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,9 +51,11 @@
         <option value="$PROJECT_DIR$/intern-challenge2/Question 03/api/api.py" />
         <option value="$PROJECT_DIR$/intern-challenge2/Question 02/api/validator.py" />
         <option value="$PROJECT_DIR$/intern-challenge2/Question 04/api/validator.py" />
-        <option value="$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests.py" />
         <option value="$PROJECT_DIR$/intern-challenge2/Question 04/validator/validator.py" />
+        <option value="$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests.py" />
+        <option value="$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests_api.py" />
         <option value="$PROJECT_DIR$/intern-challenge2/Question 04/api/api.py" />
+        <option value="$PROJECT_DIR$/intern-challenge2/Question 04/api/tests_api.py" />
       </list>
     </option>
   </component>
@@ -183,19 +155,26 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/intern-challenge2/Question 01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/intern-challenge2/Question 04/api" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vulcão\Documents\GitHub\Desafio-Radix\intern-challenge2\Question 04\api" />
+      <recent name="C:\Users\Vulcão\Documents\GitHub\Desafio-Radix\intern-challenge2\Question 01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vulcão\Documents\GitHub\Desafio-Radix\intern-challenge2\Question 04\api" />
       <recent name="C:\Users\Vulcão\Documents\GitHub\Desafio-Radix\intern-challenge2\Question 01\tests" />
       <recent name="C:\Users\Vulcão\Documents\GitHub\Desafio-Radix\intern-challenge2\Question 01\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vulcão\Documents\GitHub\Desafio-Radix\intern-challenge2\Question 01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,110 +189,89 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api (2)">
-    <configuration name="api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Desafio-Radix" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 02/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="api (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Desafio-Radix" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intern-challenge2/Question 04/api/api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="validator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Desafio-Radix" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04/validator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intern-challenge2/Question 04/validator/validator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in tests.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for tests_api.TestContagem">
+    <configuration name="Unittests for tests_api.TestContagem" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Desafio-Radix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tests_api.TestContagem&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for tests_api.TestContagem.test_26 (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Desafio-Radix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/intern-challenge2/Question 01/tests/tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tests_api.TestContagem.test_26&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests_api.TestContagem.test_26" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Desafio-Radix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_api.TestContagem.test_26&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests_api.TestContagem.test_28" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Desafio-Radix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_api.TestContagem.test_28&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests_api.TestContagem.test_30" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Desafio-Radix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_api.TestContagem.test_30&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.api (2)" />
-        <item itemvalue="Python.validator" />
-        <item itemvalue="Python tests.Unittests in tests.py (1)" />
-        <item itemvalue="Python.api (1)" />
-        <item itemvalue="Python tests.Unittests in tests.py" />
+        <item itemvalue="Python tests.Unittests for tests_api.TestContagem" />
+        <item itemvalue="Python tests.Unittests for tests_api.TestContagem.test_26 (1)" />
+        <item itemvalue="Python tests.Unittests for tests_api.TestContagem.test_30" />
+        <item itemvalue="Python tests.Unittests for tests_api.TestContagem.test_26" />
+        <item itemvalue="Python tests.Unittests for tests_api.TestContagem.test_28" />
       </list>
     </recent_temporary>
   </component>
@@ -330,49 +288,75 @@
       <workItem from="1569090211683" duration="3420000" />
       <workItem from="1569096889273" duration="16639000" />
       <workItem from="1569152943812" duration="28582000" />
-      <workItem from="1569188622204" duration="1129000" />
+      <workItem from="1569188622204" duration="5433000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 39m 20s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 19h 54m 03s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 41m 23s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 19h 54m 07s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 42m 30s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 19h 54m 33s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 46m 24s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 19h 54m 56s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 47m 27s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 19h 56m 37s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 50m 18s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 19h 56m 58s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 52m 28s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 20h 00m 58s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 53m 05s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 20h 02m 40s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.09.22 at 09h 17m 06s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 20h 06m 06s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.09.22 at 17h 36m 32s.xml">
-      <configuration name="Unittests in tests.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_api_py_(1) - 2019.09.22 at 20h 11m 05s.xml">
+      <configuration name="Unittests in tests_api.py (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49770000" />
+    <option name="totallyTimeSpent" value="54074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24200426" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.41694537" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992035" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3121516" />
+      <window_info anchor="bottom" x="273" y="450" width="918" height="350" id="Terminal" order="11" type="WINDOWED" weight="0.20847268" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -398,47 +382,22 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32998884" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32992035" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.20847268" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="R Graphics" order="5" />
-      <window_info anchor="right" id="R Packages" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Desafio_Radix$tests.coverage" NAME="tests Coverage Results" MODIFIED="1569098222704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Infoglobo/tests" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_for_tests_TestContagem.coverage" NAME="Unittests for tests.TestContagem Coverage Results" MODIFIED="1569192195067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
     <SUITE FILE_PATH="coverage/Desafio_Radix$api.coverage" NAME="api Coverage Results" MODIFIED="1569112753554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 01/api" />
-    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1569154625646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$tests.coverage" NAME="tests Coverage Results" MODIFIED="1569192752510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Infoglobo/tests" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_api_py__1_.coverage" NAME="Unittests in tests_api.py (1) Coverage Results" MODIFIED="1569193864863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 04" />
     <SUITE FILE_PATH="coverage/Desafio_Radix$api__1_.coverage" NAME="api (1) Coverage Results" MODIFIED="1569176551271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 02/api" />
-    <SUITE FILE_PATH="coverage/Desafio_Radix$api__2_.coverage" NAME="api (2) Coverage Results" MODIFIED="1569189745652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 04/api" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1569190191393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$api__2_.coverage" NAME="api (2) Coverage Results" MODIFIED="1569193884471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 04/api" />
     <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_for_tests_TestCrawler_test_01.coverage" NAME="Unittests for tests.TestCrawler.test_01 Coverage Results" MODIFIED="1569101543204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 01/tests" />
-    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_py__1_.coverage" NAME="Unittests in tests.py (1) Coverage Results" MODIFIED="1569184591969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
     <SUITE FILE_PATH="coverage/Desafio_Radix$validator.coverage" NAME="validator Coverage Results" MODIFIED="1569189687346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 04/validator" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_py__1_.coverage" NAME="Unittests in tests_api.py Coverage Results" MODIFIED="1569192661921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Infoglobo/manage.py">
@@ -458,16 +417,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/question_1.py" />
-    <entry file="file://$PROJECT_DIR$/../Infoglobo/tests/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="75" lean-forward="true" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/app/question_1.py" />
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/tests.py" />
     <entry file="file://$PROJECT_DIR$/tests.py">
@@ -498,16 +447,6 @@
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 02/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/tests/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -523,27 +462,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/api/validator.py" />
-    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests.py">
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="-452">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Infoglobo/tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/tests/tests_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/validator/validator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="384">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/api/tests_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 04/api/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="476">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
