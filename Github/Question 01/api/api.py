@@ -16,25 +16,52 @@ from math import trunc
 # 64 bit possuem 8 byte
 # numero não assinado inteiro longo possui 4 byte e vai de 0 a 4.294.967.295
 # 64 bit possuem 8 byte
-def fibonacci():
-    return 21
+def fibonacci(n):
+    t1 =0
+    t2 =1
+    cont = 3
+    fibo = [t1, t2]
+    while cont <= n+1:
+        t3 = t1+t2
+        t1 = t2
+        t2 = t3
+        cont += 1
+        fibo.append(t3)
+    return fibo
+print(fibonacci(9))
 
 
+
+
+
+print("-"*90)
 def binet(x):
     phi = 1.61803398874989
     n = ((phi**x) - (1 - phi)**x) / (5**.5)
     return ceil(n)
 
 
-x = 60
+maximo2 = 2 * 4294967295
+a=0
+for c in range(0, 60):
+    if binet(c) < maximo2:
+        a = binet(c)
+        b = c
+print(a, b)
+
+
+
+
+print("-"*60)
+
+
+x = 49
+
 phi = 1.61803398874989
 n = ((phi**x) - (1 - phi)**x) / (5**.5)
 
 
-
-
-
-print(trunc(ceil(n)))
+#print(trunc(ceil(n)))
 maximo = 4 * 65535
 maximo2 = 2 * 4294967295
 print(maximo)
