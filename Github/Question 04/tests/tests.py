@@ -2,9 +2,9 @@ import unittest
 from ..api import api
 
 
-class TestCrawler(unittest.TestCase):
+class TestContagemDeCartas(unittest.TestCase):
     def test_01(self):
-        self.assertEqual(api.fibonacci(3), test_01)
+        self.assertEqual(api.check_occurrence(test_01), test_01)
 
 
     def test_02(self):
@@ -31,14 +31,16 @@ class TestCrawler(unittest.TestCase):
         self.assertEqual(api.fibonacci(60), test_07)
 
 
-# insira o numero fibonacci que deseja testar
-test_01 = teste_fibonacci(3)
-test_02 = teste_fibonacci(4)
-test_03 = teste_fibonacci(9)
-test_04 = teste_fibonacci(7)
-test_05 = teste_fibonacci(58)
-test_06 = teste_fibonacci(59)
-test_07 = teste_fibonacci(60)
+# insira os argumentos que deseja testar
+test_01 = ('arara',a)
+test_02 =
+test_03 =
+test_04 =
+test_05 =
+test_06 =
+test_07 =
+# insira as respostas esperadas que deseja testar
+
 
 if __name__ == '__main__':
     unittest.main()
