@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ee7b7c7-2c3e-4946-946b-2a858fee7566" name="Default Changelist" comment="" />
+    <list default="true" id="0ee7b7c7-2c3e-4946-946b-2a858fee7566" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,13 +45,14 @@
         <option value="$PROJECT_DIR$/intern-challenge2/Question 01/tests.py" />
         <option value="$PROJECT_DIR$/intern-challenge2/Question 01/api/api.py" />
         <option value="$PROJECT_DIR$/intern-challenge2/Question 01/tests/tests.py" />
+        <option value="$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="724" />
-    <option name="width" value="1204" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="652" />
+    <option name="width" value="1275" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,10 +74,30 @@
               <item name="Desafio-Radix" type="462c0819:PsiDirectoryNode" />
               <item name="intern-challenge2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Desafio-Radix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Desafio-Radix" type="462c0819:PsiDirectoryNode" />
+              <item name="intern-challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="Question 01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Desafio-Radix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Desafio-Radix" type="462c0819:PsiDirectoryNode" />
+              <item name="intern-challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="Question 02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Desafio-Radix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Desafio-Radix" type="462c0819:PsiDirectoryNode" />
+              <item name="intern-challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="Question 02" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,7 +129,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in tests.py">
+  <component name="RunManager" selected="Python.api (1)">
+    <configuration name="api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Desafio-Radix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intern-challenge2/Question 02/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Desafio-Radix" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,6 +228,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api (1)" />
         <item itemvalue="Python tests.Unittests in tests.py" />
         <item itemvalue="Python.api" />
         <item itemvalue="Python tests.Unittests for tests.TestCrawler.test_01" />
@@ -192,13 +248,11 @@
       <updated>1569090203387</updated>
       <workItem from="1569090211683" duration="3420000" />
       <workItem from="1569096889273" duration="16639000" />
+      <workItem from="1569152943812" duration="14759000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_tests_py - 2019.09.21 at 18h 33m 41s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_tests_py - 2019.09.21 at 18h 34m 11s.xml">
       <configuration name="Unittests in tests.py" configurationId="tests" />
     </history-entry>
@@ -226,21 +280,23 @@
     <history-entry file="Unittests_in_tests_py - 2019.09.21 at 21h 53m 05s.xml">
       <configuration name="Unittests in tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_tests_py - 2019.09.22 at 09h 17m 06s.xml">
+      <configuration name="Unittests in tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20059000" />
+    <option name="totallyTimeSpent" value="34818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="0" width="1204" height="1056" extended-state="0" />
+    <frame x="652" y="0" width="1275" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23950617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49944258" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3153153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -248,9 +304,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992035" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20847268" />
+      <window_info active="true" anchor="bottom" x="273" y="450" width="918" height="350" id="Terminal" order="11" type="WINDOWED" visible="true" weight="0.20847268" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,6 +314,7 @@
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -293,7 +350,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Desafio_Radix$tests.coverage" NAME="tests Coverage Results" MODIFIED="1569098222704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Infoglobo/tests" />
     <SUITE FILE_PATH="coverage/Desafio_Radix$api.coverage" NAME="api Coverage Results" MODIFIED="1569112753554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 01/api" />
-    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1569113585609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1569154625646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2" />
+    <SUITE FILE_PATH="coverage/Desafio_Radix$api__1_.coverage" NAME="api (1) Coverage Results" MODIFIED="1569168714766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 02/api" />
     <SUITE FILE_PATH="coverage/Desafio_Radix$Unittests_for_tests_TestCrawler_test_01.coverage" NAME="Unittests for tests.TestCrawler.test_01 Coverage Results" MODIFIED="1569101543204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intern-challenge2/Question 01/tests" />
   </component>
   <component name="editorHistoryManager">
@@ -313,13 +371,7 @@
     <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 06/app.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/question_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/question_1.py" />
     <entry file="file://$PROJECT_DIR$/../Infoglobo/tests/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -330,20 +382,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/app/question_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/app/question_1.py" />
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 01/tests.py" />
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -365,6 +405,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 02/tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intern-challenge2/Question 02/api/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
