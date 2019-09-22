@@ -25,7 +25,7 @@ def check_occurrence(word, letter):
 
 
 
-#print(check_occurrence('arara', 'ar'))
+# print(check_occurrence('arara', 'ar'))
 # print(check_occurrence('arAra', 'a'))
 '''
 print(check_occurrence('arara', 'ar'))

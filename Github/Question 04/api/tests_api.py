@@ -2,7 +2,7 @@ import unittest
 from .api import check_occurrence
 
 
-class TestContagem(unittest.TestCase):
+class Testapi(unittest.TestCase):
     # do teste 01 ao 25 testei se o dicionário funcionava
     def test_01(self):
         self.assertEqual(check_occurrence('arara', 'a'), 3)
@@ -80,25 +80,25 @@ class TestContagem(unittest.TestCase):
         self.assertEqual(check_occurrence('arara', 'w'), 0)
 
     def test_26(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('arara', 'aa'), 'consulta inválida')
 
     def test_27(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('arara', '1'), 'consulta inválida')
 
     def test_28(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('arara', 'ar'), 'consulta inválida')
 
     def test_29(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('Aurelio', 'a'), 1)
 
     def test_30(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('Yasmin', 'm'), 1)
 
     def test_31(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('paralelepipedo', 'p'), 3)
 
     def test_32(self):
-        self.assertEqual(check_occurrence('arara', 'a'), 3)
+        self.assertEqual(check_occurrence('Brasil', 'l'), 1)
 
 
 if __name__ == '__main__':
