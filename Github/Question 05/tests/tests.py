@@ -1,5 +1,6 @@
 import unittest
-from ..api import api
+#from ..api import api
+#from validator import validator
 
 
 class TestApi(unittest.TestCase):
@@ -27,6 +28,9 @@ class TestApi(unittest.TestCase):
 
 # insira o que deseja testar
 test_01 = 1
+
+# gerador de string de 100 caracteres
+
 
 if __name__ == '__main__':
     unittest.main()

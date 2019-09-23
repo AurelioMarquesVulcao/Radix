@@ -1,5 +1,5 @@
 import unittest
-from .api import check_occurrence
+from api import check_occurrence
 
 
 class Testapi(unittest.TestCase):
