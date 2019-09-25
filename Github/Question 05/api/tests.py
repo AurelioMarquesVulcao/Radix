@@ -37,10 +37,25 @@ class TestApi(unittest.TestCase):
         self.assertEqual(verification_letter('Gr1d'), 'Entrada invalida')
 
     def test_10(self):
-        self.assertEqual(0, 0)
+        self.assertEqual(api.palindrome('ama'), 'ama')
 
     def test_11(self):
+        self.assertEqual(api.palindrome('Aca'), 'aca')
+
+    def test_12(self):
+        self.assertEqual(api.palindrome('Jaca'), 'sem resultado')
+
+    def test_13(self):
+        self.assertEqual(api.sub_strig_palindrome('Jaca'), ['aca'])
+
+    def test_14(self):
         self.assertEqual(0, 0)
+
+    def test_15(self):
+        self.assertEqual(api.sub_strig_palindrome('xxy'), ['xx'])
+
+    def test_16(self):
+        self.assertEqual(api.sub_strig_palindrome('Bananas'), ['anana'])
 
 
 # insira o que deseja testar

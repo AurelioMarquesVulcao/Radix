@@ -4,7 +4,9 @@ import re
 
 alphabet = [
     'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
-    'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'y', 'x', 'z', 'w'
+    'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'y', 'x', 'z', 'w',
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
+    'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'Y', 'X', 'Z', 'W'
 ]
 
 # fatia a palavra para podermos trabalhar com os caracteres separadamente
@@ -18,15 +20,10 @@ def slicing_word(x):
 # Checks whether a given character is alphabetic.
 # Verifica se um dado caracter é alfabético.
 def verification_alphabet(x):
-    # --o bug etá aqui-----------------------------------------------
-    if x == int:
+    if x in alphabet:
+        return x
+    else:
         return False
-    print(type(x))
-    for c in range(0, len(alphabet)):
-        if x == alphabet[c]:
-            return x
-    return False
-    # --o bug etá aqui--------------------------------------------
 
 
 # It will remove the accents from the words to be analyzed.
@@ -69,20 +66,21 @@ def verification_letter(word):
         a = word
         a = remove_accents(a)
         a = slicing_word(a)
-        for c in range(0,len(a)):
-            if verification_alphabet(a[c]) != False: 
-                return word.lower()
-        return 'Entrada invalida'
-    
+        b = []
+        #print(a)
+        for c in range(0, len(word)):
+            #print("lala", a[c])
+            if verification_alphabet(a[c]) == False:
+                b.append(a[c])
+                #print(a[c])
+        #print('aqui',len(b))
+        if len(b)>0:
+            return 'Entrada invalida'
+        else:
+            return remove_accents(word.lower())
+    else:
+        return 'Entrada invalida' # mais de 100 caracteres
 
 
 # testes rapidos para a função
 #print(f'1 - {verification_letter(character_text_101())}')
-print(f'2 - {verification_letter("Grid")}')
-#print(verification_extension(character_text_101()))
-print(verification_alphabet('1'))
-print(verification_alphabet(1))
-print(verification_alphabet('z'))
-print(remove_accents('Gr1d'))
-#print(remove_accents('Aurelio'))
-#print(verification_letter('Aurélio'))
