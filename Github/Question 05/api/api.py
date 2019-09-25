@@ -1,15 +1,8 @@
 from validation_str import verification_alphabet
 from validation_str import verification_extension
 from validation_str import remove_accents
+from validation_str import slicing_word
 
-
-# fatia a palavra para podermos trabalhar com os caracteres separadamente
-def slicing_word(x):
-    a = []
-    for c in range(0, len(x)):
-        a.append(remove_accents(x[c]))
-    return a
-    
 
 # fatia a palavra e inverte seus caracteres
 def invert_word(x):
@@ -27,8 +20,16 @@ def palindrome(x):
         return 'sem resultado'
 
 
-print(palindrome('bananas'))
-print((palindrome('amã')))
+def exit(x):
+    check_word = ''
+    return 'oi', check_word
+
+
+# print(palindrome('bananas'))
+# print((palindrome('amã')))
+# print(exit('amã'))
+# print(exit('Bananas'))
+# print(exit('ama'))
 palindromos = ['osso', 'ama']
 not_palindromos = ['pata', 'bananas', 'mamão']
 x = [1, 2, 3, 4]
