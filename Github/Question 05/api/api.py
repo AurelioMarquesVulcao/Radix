@@ -1,5 +1,6 @@
 from validation_str import verification_letter
 from validation_str import slicing_word
+from validation_str import remove_accents
 
 # fatia a palavra e inverte seus caracteres
 def invert_word(x):
@@ -18,6 +19,38 @@ def palindrome(x):
         return 'sem resultado'
 
 
+def find_palindrome(x):
+    c = []
+    if verification_letter(x) == 'Entrada invalida':
+        c.append(verification_letter(x))
+    a =  remove_accents(x)
+    b = []
+    w = 1
+    for i in range(0,len(x)):
+        w += 1
+        y = w
+        for j in range(0, (len(a)-1)):
+            b.append(a[j: y])
+            y += 1
+    # o Laço vai colocar todas as possilidades de 
+    # palindromos na lista, sendo a ultima a maior substring possivel
+    for k in range(0, len(b)):
+        if palindrome(b[k]) != 'sem resultado':
+            c.append(palindrome(b[k]))
+            # print(c)
+    if len(c) < 1:
+        c.append('sem resultado')
+    c.reverse()
+    return c[0]
+
+
+# print('1-', find_palindrome('bananas'))
+# print('2-', palindrome('bananas'))
+# print('3-', find_palindrome('aoo'))
+# print('4-', find_palindrome('ooa1'))
+
+# Código menos elegante que localiza e texta Palindromos.
+'''
 def corta_1_caractere(x):
     b = slicing_word(x)
     #print(b)
@@ -47,7 +80,6 @@ def corta_1_ultima(x):
     #print(b)
     b = ''.join(map(str, b))
     #print(b)
-
     b = slicing_word(b)
     #print(b)
     b = invert_word(b)
@@ -56,7 +88,6 @@ def corta_1_ultima(x):
     #print(b)
     b = ''.join(map(str, b))
     #print(b)
-
     return palindrome(b)
 
 
@@ -69,22 +100,4 @@ def sub_strig_palindrome(x):
     elif corta_1_ultima(x) != 'sem resultado':
         result.insert(0, corta_1_ultima(x))
     return result
-
-
-#corta_1_caractere('Jaca')
-#corta_1_caractere_final('apaw')
-#corta_1_ultima('Bananas')
-# print(palindrome('bananas'))
-# print((palindrome('amã')))
-# print(exit('amã'))
-# print(exit('Bananas'))
-# print(exit('ama'))
-#palindromos = ['osso', 'ama']
-#not_palindromos = ['pata', 'bananas', 'mamão']
-#x = [1, 2, 3, 4]
-
-
-#print(validator.verification_alphabet('a'))
-#print(validator.verification_alphabet('a'))
-#print(verification_extension('x'))
-# print()
+'''

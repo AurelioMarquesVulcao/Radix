@@ -67,13 +67,9 @@ def verification_letter(word):
         a = remove_accents(a)
         a = slicing_word(a)
         b = []
-        #print(a)
         for c in range(0, len(word)):
-            #print("lala", a[c])
             if verification_alphabet(a[c]) == False:
                 b.append(a[c])
-                #print(a[c])
-        #print('aqui',len(b))
         if len(b)>0:
             return 'Entrada invalida'
         else:

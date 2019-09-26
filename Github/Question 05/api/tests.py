@@ -46,22 +46,25 @@ class TestApi(unittest.TestCase):
         self.assertEqual(api.palindrome('Jaca'), 'sem resultado')
 
     def test_13(self):
-        self.assertEqual(api.sub_strig_palindrome('Jaca'), ['aca'])
+        self.assertEqual(api.find_palindrome('Jaca'), 'aca')
 
     def test_14(self):
-        self.assertEqual(0, 0)
+        self.assertEqual(api.find_palindrome('Vôo'), 'oo')
 
     def test_15(self):
-        self.assertEqual(api.sub_strig_palindrome('xxy'), ['xx'])
+        self.assertEqual(api.find_palindrome('xxy'), 'xx')
 
     def test_16(self):
-        self.assertEqual(api.sub_strig_palindrome('Bananas'), ['anana'])
+        self.assertEqual(api.find_palindrome('Bananas'), 'anana')
 
+    def test_17(self):
+        self.assertEqual(api.find_palindrome('Gr1d'), 'Entrada invalida')
 
-# insira o que deseja testar
+    def test_18(self):
+        self.assertEqual(api.find_palindrome('Aurélio'), 'sem resultado')
 
-
-# gerador de string de 100 caracteres
+    def test_19(self):
+        self.assertEqual(api.find_palindrome('ama'), 'ama')
 
 
 if __name__ == '__main__':
