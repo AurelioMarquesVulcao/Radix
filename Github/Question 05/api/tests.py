@@ -1,11 +1,11 @@
 import unittest
+from random import randint
 from validation_str import verification_alphabet
 from validation_str import verification_extension
 from validation_str import character_text_101
 from validation_str import verification_letter
+from validation_str import remove_accents
 import api
-#from ..api import api
-#from validator import validator
 
 
 class TestApi(unittest.TestCase):
@@ -65,6 +65,7 @@ class TestApi(unittest.TestCase):
 
     def test_19(self):
         self.assertEqual(api.find_palindrome('ama'), 'ama')
+      
 
 
 if __name__ == '__main__':

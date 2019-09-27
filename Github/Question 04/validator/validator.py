@@ -18,6 +18,6 @@ def verification(x):
 
 
 
-print(verification('n'))
-print(len(alphabet))
-print(alphabet[2])
+#print(verification('n'))
+#print(len(alphabet))
+#print(alphabet[2])
