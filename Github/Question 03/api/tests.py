@@ -1,9 +1,11 @@
 import unittest
-import api
+from form_generator import random_start_date
+from form_generator import random_end_date
 
-class TestCrawler(unittest.TestCase):
+
+class TestApi(unittest.TestCase):
     def test_01(self):
-        self.assertEqual(0, 0)
+        self.assertEqual(test_01(), 'ok')
 
 
     def test_02(self):
@@ -28,6 +30,16 @@ class TestCrawler(unittest.TestCase):
 
     def test_07(self):
         self.assertEqual(0, 0)
+
+
+def test_01():
+    try:
+        for c in range(50000):
+            random_start_date()
+        a = 'ok'
+    except:
+        a = 'False'
+    return a
 
 
 if __name__ == '__main__':

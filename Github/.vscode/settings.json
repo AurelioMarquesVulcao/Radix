@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": ".\\Question 03\\sqlite\\radix.db",
+            "dialect": "SQLite",
+            "name": "teste"
+        }
+    ]
+}
