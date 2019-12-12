@@ -1,4 +1,4 @@
-# Processo Seletivo Radix - Estagiário/Trainee
+# Processo Seletivo Radix
 
 ## Regras Gerais
 
